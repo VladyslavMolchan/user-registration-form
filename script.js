@@ -1,10 +1,10 @@
 
-
 document.getElementById('registrationForm').addEventListener('submit', function(event) {
   event.preventDefault(); // зупинити відправлення форми
 
 
   clearErrors();
+  
   clearMessage();
 
   const username = document.getElementById('username').value.trim();
